@@ -147,7 +147,7 @@
 
 .hero-image-back{
     position: absolute;
-    top: 32rem;
+    top: 10rem;
     right: 20rem;
     z-index: -1;
     width: 15rem;
@@ -157,10 +157,32 @@
     display: flex;
     gap: 2rem;
     background-color: var(--caloryCard);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1rem;
     width: fit-content;
     position: absolute;
+    top: 32rem;
+    right: 28rem;
+    width: 10rem;
+    height: auto;
+}
     
+
+
+.calories > img {
+    width: 3rem;
+}
+ 
+
+.calories > div > :nth-child(1) {
+    color: gray;
+    word-wrap: break-word;
+
 }
 
+.calories > div > :nth-child(2) {
+    color: white;
+    font-size: 1.srem;
+
+} 
+    
